@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Background image */
+  body {
+    background-image: url('image.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #options {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each button color */
+  #options1 {
+    background-color: #ff00ff; /* background color for option 1 */
+  }
+  
+  /* background color for option 2 */
+  #options2 {
+    background-color: #1980f5; 
+  }
+  
+  /* background color for option 3 */
+  #options3 {
+    background-color: #10d12d; 
+  }
+  
+  /* background color for option 4 */
+  #options4 {
+    background-color: #ff8c00; 
+  }
+  
+  /* background color for option 5 */
+  #options5 {
+    background-color: #ee82ee;
+  }
+  
+  /* Style for each button */
+  .options-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 90%;
+    cursor: pointer;
+  }
+  
+  .options-btn:hover {
+    filter: brightness(90%);
+  }
+
+   /* style for view botton */
+   #view-story{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /* style for output story */
+  #story-output {
+    margin-top: 50px; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-family: Arial, sans-serif; 
+    font-size: 20px;
+    color: #130bf0; 
+  }
+  
+  /* style for generate-random-story*/
+  #generate-random-story{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    padding: 10px 20px;
+    background-color: #de2808;
+    color: #f2eded;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #view-story:hover {
+    filter: brightness(90%);
+  }
+  

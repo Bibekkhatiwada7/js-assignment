@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story-maker</title>
+  <!--link with css-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--title of the page-->
+  <h1>See 'N' Say Storymaker</h1>
+  <div id="options">
+    <button id="options1" class="options-btn">Option 1</button>
+    <button id="options2" class="options-btn">Option 2</button>
+    <button id="options3" class="options-btn">Option 3</button>
+    <button id="options4" class="options-btn">Option 4</button>
+    <button id="options5" class="options-btn">Option 5</button>
+  </div>
+  <!--button to display the final story-->
+  <button id="view-story" onclick="viewStory()">View final Story</button>
+  <!--button to generate random story-->
+  <button id="generate-random-story">Generate Random Story</button> 
+  
+  <!-- Container to display the story output -->
+  <div>
+    <div id="story-output"></div>
+  </div>
+
+  <script src="script.js"></script><!--link with js-->
+</body>
+</html>
